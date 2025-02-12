@@ -1,0 +1,542 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique E-Commerce Store/ Amazon</title>
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body> 
+    <!-- Header Section -->
+      <header>
+        <div class="logo">
+            <h1>Shopify</h1>
+        </div>
+        <!-- <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for products...">
+            <button id="search-button">Search</button>
+        </div>  -->
+         <!-- <div class="cart">
+            <button id="cart-button">Cart</button>
+        </div> -->
+    </header> 
+
+    <!-- Navigation Bar -->
+     <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#id">Shop</a></li>
+            <li><a href="#footer">Footer</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+<!-- Countdown Timer Section -->
+<div id="countdown" style="    text-align: center;
+font-size: 25px;
+background-color: #efeaea;
+padding: 20px;
+line-height: 50px;">
+    <h3>Limited Time Offer!</h3>
+    <p>Hurry up! Sale ends in:</p>
+    <div id="timer" style="font-size: 30px; font-weight: bold;"></div>
+</div>
+
+<div id="image">
+<div class="image">
+    <img src="i-phone.webp" alt="">
+    <!-- Buttons to trigger the add to cart prompt -->
+    <button class="add-to-cart-btn" data-product="i-phone" data-price="₹ 1,00,000"> <i>₹ 1,00,000</i> 
+      Add  to Cart</button>
+</div>
+<div class="image">
+    <img src="laptop.jpeg" alt="">
+    <button class="add-to-cart-btn" data-product="laptop" data-price="₹ 1,00,000"> <i> ₹ 1,00,000</i> Add  to Cart</button>
+</div>
+<div class="image">  
+    <img src="SamsungGalaxyS23Ultra.webp" alt="">
+<button class="add-to-cart-btn" data-product="Samsung Galaxy S23 Ultra" data-price="₹ 1,00,000"> <i> ₹ 1,00,000</i> Add  to Cart</button>
+</div> 
+    <div class="image">
+    <img src="headphone.jpeg" alt="">
+    <button class="add-to-cart-btn" data-product="headphone" data-price="₹ 1,00,000"> <i> ₹ 1,00,000</i> Add  to Cart</button>
+</div>
+</div>
+<!-- Trending Products Section -->
+
+<!-- Video Showcase Section -->
+
+    <!-- Product Grid -->
+     <h2 id="id">Shop</h2>
+      <section class="product-grid">
+        <div class="product-card">
+            <img src="chair.jpg" alt="Product 1">
+            <h3>Chair</h3>
+            <p>$29.99</p>
+            <!-- <button onclick="addToCart('Product 1')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Chair" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="bed.jpg" alt="Product 2">
+            <h3>Bed</h3>
+            <p>$39.99</p>
+            <!-- <button onclick="addToCart('Product 2')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Bed" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="mat.jpg" alt="Product 3">
+            <h3>Mat</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 3')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Mat" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="jpg.jpg" alt="Product 4">
+            <h3>Sofa</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 4')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Sofa" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img style="    width: 250px;
+    height: 110px;" src="nike1.jpg" alt="Product 5">
+            <h3>Nike 1</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 5')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Shoes" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img style="    width: 250px;
+    height: 110px;" src="nike2.jpg" alt="Product 6">
+            <h3>Nike 2</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 6')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Shoes" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img style="    width: 250px;
+    height: 110px;" src="nike3.jpg" alt="Product 7">
+            <h3>Nike 3</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 7')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Shoes" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img style="    width: 250px;
+    height: 110px;" src="nike4.jpg" alt="Product 8">
+            <h3>Nike 4</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 8')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Shoes" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gym1.jpg" alt="Product 9">
+            <h3>Gym Set</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 9')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Gym Set" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img  src="gym2.jpg" alt="Product 10">
+            <h3>Gym Set</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 10')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Gym Set" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img  src="gym3.jpg" alt="Product 11">
+            <h3>Gym Set</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 11')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Gym Set" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="gym4.jpg" alt="Product 12">
+            <h3>Gym Set</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 12')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Gym Set" data-price="50"> Add  to Cart</button>
+        </div> 
+         <div class="product-card">
+            <img src="tshirt1.jpg" alt="Product 13">
+            <h3>Hoddie Tshirt</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 13')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Tshirt" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tshirt2.jpg" alt="Product 14">
+            <h3>Full Sleves Tshirt</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 14')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Tshirt" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tshirt3.jpg" alt="Product 15">
+            <h3>Half Sleves Tshirt</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 15')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Tshirt" data-price="50"> Add  to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="tshirt4.jpg" alt="Product 16">
+            <h3>Oversize Tshirt</h3>
+            <p>$49.99</p>
+            <!-- <button onclick="addToCart('Product 16')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Tshirt" data-price="50"> Add  to Cart</button>
+        </div>
+        <!-- Beauty & Personal Care -->
+       
+          <!-- <h2 id="id">Beauty & Personal Care</h2> -->
+          <div class="product-card">
+            <img src="Skin Care Serum.webp" alt="Beauty Product">
+            <p>Skin Care Serum</p>
+            <p>$20</p>
+            <!-- <button class="add-to-cart-btn" onclick="addToCart('Beauty Product: Skin Care Serum')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Skin Care Serum" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Hair Shampoo.webp" alt="Beauty Product">
+            <p>Hair Shampoo</p>
+            <p>$15</p>
+            <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Hair Shampoo')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Hair Shampoo" data-price="50"> Add  to Cart</button>
+          </div>
+
+<div class="product-card">
+    <img src="Face Cream.webp" alt="Beauty Product">
+    <p>Face Cream</p>
+    <p>$25</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Face Cream')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Face Cream" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Body Lotion.avif" alt="Beauty Product">
+    <p>Body Lotion</p>
+    <p>$12</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Body Lotion')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Body Lotion" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Face Mask.webp" alt="Beauty Product">
+    <p>Face Mask</p>
+    <p>$20</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Face Mask')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Face Mask" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Hand Cream.webp" alt="Beauty Product">
+    <p>Hand Cream</p>
+    <p>$18</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Hand Cream')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Hand Cream" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Hair Conditioner.webp" alt="Beauty Product">
+    <p>Hair Conditioner</p>
+    <p>$22</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Hair Conditioner')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Hair Conditioner" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Makeup Remover.png" alt="Beauty Product">
+    <p>Makeup Remover</p>
+    <p>$10</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Makeup Remover')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Makeup Remover" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Eye Cream.webp" alt="Beauty Product">
+    <p>Eye Cream</p>
+    <p>$30</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Eye Cream')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Eye Cream" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Body Scrub.webp"  alt="Beauty Product">
+    <p>Body Scrub</p>
+    <p>$17</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Body Scrub')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Body Scrub" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Face Serum.avif" alt="Beauty Product">
+    <p>Face Serum</p>
+    <p>$40</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Face Serum')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Face Serum" data-price="50"> Add  to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="Night Cream.webp" alt="Beauty Product">
+    <p>Night Cream</p>
+    <p>$35</p>
+    <!-- <button class="add-to-cart" onclick="addToCart('Beauty Product: Night Cream')">Add to Cart</button> -->
+    <button class="add-to-cart-btn" data-product="Night Cream" data-price="50"> Add  to Cart</button>
+  </div>
+  <!-- <h2 id="id">Book</h2> -->
+          <div class="product-card">
+            <img src="Self-Improvement Book.jpg" alt="Book">
+            <p>Self-Improvement Book</p>
+            <p>$25</p>
+            <!-- <button class="add-to-cart" onclick="addToCart('Book: Self-Improvement Book')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Self-Improvement Book" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Programming for Beginners.jpeg" alt="Book">
+            <p>Programming for Beginners</p>
+            <p>$30</p>
+            <!-- <button class="add-to-cart" onclick="addToCart('Book: Programming for Beginners')">Add to Cart</button> -->
+            <button class="add-to-cart-btn" data-product="Programming for Beginners" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Data Structures and Algorithms.jpeg" alt="Book">
+            <p>Data Structures and Algorithms</p>
+            <p>$35</p>
+            <button class="add-to-cart-btn" data-product="Data Structures and Algorithms" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="JavaScript Essentials.jpg" alt="Book">
+            <p>JavaScript Essentials</p>
+            <p>$25</p>
+            <button class="add-to-cart-btn" data-product="JavaScript Essentials" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Python Programming.webp" alt="Book">
+            <p>Python Programming</p>
+            <p>$40</p>
+            <button class="add-to-cart-btn" data-product="Python Programming" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Web Development Basics.jpg" alt="Book">
+            <p>Web Development Basics</p>
+            <p>$20</p>
+            <button class="add-to-cart-btn" data-product="Web Development Basics" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Introduction to Algorithms.jpg" alt="Book">
+            <p>Introduction to Algorithms</p>
+            <p>$45</p>
+            <button class="add-to-cart-btn" data-product="Introduction to Algorithms" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Mastering React.jpg" alt="Book">
+            <p>Mastering React</p>
+            <p>$50</p>
+            <button class="add-to-cart-btn" data-product="Mastering React" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="HTML and CSS for Beginners.jpg" alt="Book">
+            <p>HTML and CSS for Beginners</p>
+            <p>$18</p>
+            <button class="add-to-cart-btn" data-product="HTML and CSS for Beginners" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Advanced Java Programming.jpg" alt="Book">
+            <p>Advanced Java Programming</p>
+            <p>$38</p>
+            <button class="add-to-cart-btn" data-product="Advanced Java Programming" data-price="50"> Add  to Cart</button>
+          </div>
+          
+          <div class="product-card">
+            <img src="Learning C++.jpg" alt="Book">
+            <p>Learning C++</p>
+            <p>$28</p>
+            <button class="add-to-cart-btn" data-product="Learning C++" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="learning-js.jpg" alt="Book">
+            <p>Learning JavaScript</p>
+            <p>$28</p>
+            <button class="add-to-cart-btn" data-product="Learning JavaScript" data-price="50"> Add  to Cart</button>
+          </div>
+          <!-- <h2 id="id">Tech Gadgets</h2> -->
+          <div class="product-card">
+            <img src="Wireless Earbuds.jpg" alt="Tech Gadget">
+            <p>Wireless Earbuds</p>
+            <p>$100</p>
+            <button class="add-to-cart-btn" data-product="Wireless Earbuds" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="digital tasbeeh.jpg" alt="Tech Gadget">
+            <p>Bluetooth Speaker</p>
+            <p>$50</p>
+            <button class="add-to-cart-btn" data-product="Bluetooth Speaker" data-price="50"> Add  to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="Wireless Charger.jpg" alt="Tech Gadget">
+            <p>Wireless Charger</p>
+            <p>$45</p>
+            <button class="add-to-cart-btn" data-product="Wireless Charger" data-price="50"> Add  to Cart</button>
+          </div>
+<div class="product-card">
+    <img src="Wireless Earbuds.jpg" alt="Tech Gadget">
+    <p>Wireless Earbuds</p>
+    <p>$80</p>
+    <button class="add-to-cart-btn" data-product="Wireless Earbuds" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Smartwatch.webp" alt="Tech Gadget">
+    <p>Smartwatch</p>
+    <p>$120</p>
+    <button class="add-to-cart-btn" data-product="Smartwatch" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Portable Charger.jpg" alt="Tech Gadget">
+    <p>Portable Charger</p>
+    <p>$25</p>
+    <button class="add-to-cart-btn" data-product="Portable Charger" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Noise-Cancelling Headphones.jpeg" alt="Tech Gadget">
+    <p>Noise-Cancelling Headphones</p>
+    <p>$150</p>
+    <button class="add-to-cart-btn" data-product="Noise-Cancelling Headphones" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Bluetooth Keyboard.jpg" alt="Tech Gadget">
+    <p>Bluetooth Keyboard</p>
+    <p>$40</p>
+    <button class="add-to-cart-btn" data-product="Bluetooth Keyboard" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Smartphone Holder.jpg" alt="Tech Gadget">
+    <p>Smartphone Holder</p>
+    <p>$18</p>
+    <button class="add-to-cart-btn" data-product="Smartphone Holder" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Action Camera.webp" alt="Tech Gadget">
+    <p>Action Camera</p>
+    <p>$200</p>
+    <button class="add-to-cart-btn" data-product="Action Camera" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="VR Headset.jpg" alt="Tech Gadget">
+    <p>VR Headset</p>
+    <p>$250</p>
+    <button class="add-to-cart-btn" data-product="VR Headset" data-price="50"> Add  to Cart</button>
+  </div>
+  
+  <div class="product-card">
+    <img src="Portable Speaker.jpg" alt="Tech Gadget">
+    <p>Portable Speaker</p>
+    <p>$35</p>
+    <button class="add-to-cart-btn" data-product="Portable Speaker" data-price="50"> Add  to Cart</button>
+  </div>
+  </section>
+ 
+
+
+  
+    <div class="contact-form-container">
+        <h2 id="contact">Contact Us</h2>
+        <form class="contact-form" action="#">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+<!-- Live Chat Widget -->
+<div class="live-chat">
+    <!-- Button to open chat -->
+    <button id="chat-btn" onclick="toggleChat()">💬 Live Chat</button>
+    
+    <!-- Chat box (hidden initially) -->
+    <div id="chat-box">Chat with Us!</h3>
+        
+        <!-- Textarea for user input -->
+        <textarea id="user-message" rows="4" cols="30" placeholder="Type your message..." style="width: 100%; margin-bottom: 10px;"></textarea>
+        
+        <!-- Button to send message -->
+        <button onclick="sendMessage()" style="background-color: #233f3c; color: white; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; width: 100%;">Send</button>
+        
+        <!-- Close button -->
+        <button onclick="closeChat()" style="background-color: #ff5e5e; color: white; padding: 8px 15px; border: none; border-radius: 5px; cursor: pointer; margin-top: 10px; width: 100%;">Close Chat</button>
+    </div>
+</div>
+
+
+<!-- Free Shipping and Returns Info -->
+<div class="shipping-info" style="background-color: #f2f2f2; padding: 20px; text-align: center;">
+    <p><strong>Free Shipping & Returns</strong></p>
+    <p>Enjoy free shipping on all orders over $50. Returns within 30 days are completely free!</p>
+</div>
+<!-- Seasonal Theme -->
+<div class="seasonal-theme" style="background-color: #fffae6; padding: 20px; text-align: center;">
+    <h2>Happy Holidays!</h2>
+    <p>Celebrate the season with up to 50% off on selected items. Don't miss out!</p>
+</div>
+
+   
+    <!-- <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <h3>Your Cart</h3>
+            <ul id="cart-items-list">
+              
+            </ul>
+            <div class="total-price">
+                <p>Total: $<span id="total-price">0</span></p>
+            </div>
+            <button id="close-cart">Close</button>
+        </div>
+    </div>
+
+    <button id="view-cart-btn">View Cart</button> -->
+
+    <!-- Cart Modal -->
+    
+    
+        <!-- View Cart Button -->
+        
+        <!-- Cart Modal -->
+        <div id="cart-modal" class="cart-modal">
+          <div class="cart-content">
+            <h3>Your Cart</h3>
+            <ul id="cart-items-list">
+              <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div class="total-price">
+              <p>Total: $<span id="total-price">0</span></p>
+            </div>
+            <button id="close-cart">Close</button>
+          </div>
+        </div>
+        
+        <button id="view-cart-btn">View Cart</button>
+
+
+      <footer id="footer">
+        <p>&copy; 2024 Shopify E-Commerce. All rights reserved.</p>
+</Footer>
+    <script src="amazon.js"></script>
+</body>
+</html>
